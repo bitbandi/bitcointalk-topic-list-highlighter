@@ -16,6 +16,13 @@ You can mark the topic with icons:
  * ![dislike button](img/delete.png): mark the topic as "dislike"
  * ![unmark button](img/help.png): unmark the topic
 
+![screenshot 1](btlh1.png)
+
+
+You can hide/show "disliked" topics, if you click **Show** or **Hide** text in the first header:
+
+![screenshot 2](btlh2.png)
+
 Limitations
 -------
 Due [the limitation of chrome storage quota](https://developer.chrome.com/apps/storage#property-local), you can mark up to 500k topics.
