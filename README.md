@@ -5,7 +5,9 @@ Highlights the topic list rows on Bitcointalk.org
 
 Install
 -------
-
+1. Download the `.crx` file from the [latest release](https://github.com/bitbandi/bitcointalk-topic-list-highlighter/releases).
+2. Open [chrome://extensions](chrome://extensions) in Chrome.
+3. Drag and drop the `.crx` file onto the page and click "Add" to install.
 
 Usage
 -------
