@@ -1,0 +1,11 @@
+.bcth-interested {
+	background-color: #bfeabf !important;
+}
+
+.bcth-disinterested {
+	background-color: #eabfbf !important;
+}
+
+.bcth-hide {
+	display:none;
+}

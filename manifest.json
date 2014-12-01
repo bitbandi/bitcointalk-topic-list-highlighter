@@ -1,0 +1,30 @@
+{
+  "name": "Bitcointalk.org Topic List Highlighter",
+  "version": "0.1",
+  "description": "Highlights the topic list rows on Bitcointalk.org",
+  "icons": {
+      "16": "img/bcth16.png",
+      "64": "img/bcth64.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://bitcointalk.org/*"],
+      "run_at": "document_end",
+      "js": ["src/jquery-1.11.1.min.js", "src/main.js"],
+      "css": ["src/main.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "img/accept.png",
+    "img/delete.png",
+    "img/help.png",
+    "src/jquery-1.11.1.min.js",
+    "src/load.js",
+    "src/main.js",
+    "src/main.css"
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "manifest_version": 2
+}
